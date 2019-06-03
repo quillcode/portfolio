@@ -1,0 +1,86 @@
+html, body{
+    margin:0px;
+    padding:0px;
+    height: 100%;
+    width: 100%;
+}
+header{
+    color: white;
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    display: flex;
+
+    /* test */
+    /* background-color: #00cdff; */
+}
+
+.brand{
+    margin-left: 4rem;
+    font-size: 1.5rem;
+    user-select: none;
+    margin-right: auto;
+}
+
+nav{
+    margin-left: auto;
+}
+
+
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/index_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.hero span.dim_bg{
+    background-color: rgba(0, 0, 0, 0.900);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    user-select: none;
+}
+.hero span:nth-child(1){
+    margin-left: 3rem;
+}
+.hero span:nth-child(2){
+    margin-right: 3rem;
+}
+
+.txt_gradient{
+  background: -webkit-linear-gradient(45deg ,#5739d0, #00cdff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+
+/* lib */
+.mg_down_20{
+    margin-bottom: 20px;
+}
+.center_x_y{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.column{
+    flex-direction: column;
+}
+.txt_xxxx{
+    font-size: 4rem;
+}
+
+.txt_x{
+    font-size: 1.5rem;
+}
+
+.txt_color_primary{
+    color: white;
+}
