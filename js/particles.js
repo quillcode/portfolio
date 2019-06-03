@@ -1,7 +1,7 @@
 let particles_json = {
     "particles": {
         "number": {
-            "value": 100
+            "value": 300
         },
         "color": {
             "value": "#ffffff"
@@ -35,14 +35,14 @@ let particles_json = {
         },
         "line_linked": {
             "enable": true,
-            "distance": 150,
-            "color": "#ffffff",
+            "distance": 130,
+            "color": "#00cdff",
             "opacity": 0.4,
             "width": 1
         },
         "move": {
             "enable": true,
-            "speed": 8,
+            "speed": 6,
             "direction": "none",
             "random": false,
             "straight": false,
@@ -83,7 +83,7 @@ let particles_json = {
                 "speed": 4
             },
             "repulse": {
-                "distance": 200,
+                "distance": 100,
                 "duration": 0.5
             },
             "push": {
