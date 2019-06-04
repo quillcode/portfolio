@@ -122,10 +122,10 @@ nav{
     display: flex;
     flex-direction: column;
 
-    margin: 50px;
+    margin: 20px;
     margin-top: 150px;
     width: 400px;
-    height: 350px;
+    min-height: 350px;
     border-radius: 10px;
     background-color: #fff;
     padding: 30px;
@@ -134,7 +134,7 @@ nav{
 
 .bio{
     margin-top: 20px;
-    text-align: justify;
+    text-align: left;
     color: #555555;
     font-family: 'Courier New', Courier, monospace;
     line-height: 30px;
@@ -165,6 +165,7 @@ nav{
 }
 
 .me footer{
+    margin-top: 20px;
     margin-top: auto;
     justify-self: end;
     color: #717171;
