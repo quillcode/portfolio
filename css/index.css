@@ -19,6 +19,7 @@ a{
 header{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     color: white;
     position: fixed;
     top: 4rem;
@@ -65,8 +66,7 @@ nav{
 .hero{
     max-height: 100vh;
     height: 100vh;
-    max-width: 100vw;
-    width: 100vw;
+    max-width: 100%;
     overflow: hidden;
     /* background-image: url("../img/index_bg.jpg"); */
     background-color: #080e18;
@@ -125,7 +125,7 @@ nav{
     margin: 50px;
     margin-top: 150px;
     width: 400px;
-    height: 400px;
+    height: 350px;
     border-radius: 10px;
     background-color: #fff;
     padding: 30px;
