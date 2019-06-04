@@ -1,7 +1,7 @@
 let particles_json = {
     "particles": {
         "number": {
-            "value": 300
+            "value": 500
         },
         "color": {
             "value": "#ffffff"
@@ -35,7 +35,7 @@ let particles_json = {
         },
         "line_linked": {
             "enable": true,
-            "distance": 130,
+            "distance": 100,
             "color": "#00cdff",
             "opacity": 0.4,
             "width": 1
@@ -60,7 +60,7 @@ let particles_json = {
         "events": {
             "onhover": {
                 "enable": true,
-                "mode": "repulse"
+                "mode": "grab"
             },
             "onclick": {
                 "enable": true,
@@ -70,7 +70,7 @@ let particles_json = {
         },
         "modes": {
             "grab": {
-                "distance": 140,
+                "distance": 100,
                 "line_linked": {
                     "opacity": 1
                 }
@@ -83,7 +83,7 @@ let particles_json = {
                 "speed": 4
             },
             "repulse": {
-                "distance": 100,
+                "distance": 150,
                 "duration": 0.5
             },
             "push": {
@@ -97,4 +97,4 @@ let particles_json = {
     "retina_detect": true
 }
 
-particlesJS("particles-js", particles_json);
+// particlesJS("particles-js", particles_json);
