@@ -20,13 +20,13 @@
                     <a href="#">Home</a>
                 </div>
                 <div class="nav-item">
-                    <a href="#products">Web</a>
-                </div>
-                <div class="nav-item">
                     <a href="#mobile">Mobile</a>
                 </div>
                 <div class="nav-item">
-                    <a href="#products">Desktop</a>
+                    <a href="#web">Web</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#desktop">Desktop</a>
                 </div>
                 <div class="nav-item">
                     <a href="#about">About</a>
@@ -37,7 +37,7 @@
             </nav>
         </div>
     </header>
-    <div class="hero center_x_y" id="home">
+    <section class="hero center_x_y" id="home">
         <div id="particles-js"></div>
 
         <div class="top center_x_y column txt_color_primary">
@@ -53,14 +53,11 @@
                 </span>
             </span>
         </div>
-    </div>
+    </section>
 
-    <div id="products">
+    <section id="products">
 
-        <!-- <div class="product_item" id="web">
-        </div> -->
-
-        <div class="product_item" id="mobile">
+        <section class="product_item" id="mobile">
             <div class="item_app">
                 <h1 class="app_name">Postgrapher</h1>
                 <img class="app_screen_shot" src="./img/frames/postgrapher.png" alt="Postgrapher">
@@ -77,14 +74,25 @@
                     <img class="play_badge" src="./img/google-play-badge.png" alt="">
                 </a>
             </div>
-        </div>
+        </section>
 
-        <!-- <div class="product_item" id="desktop">
-        </div> -->
+        <section class="product_item" id="desktop">
+            <header class="center_x_y">
 
-    </div>
+            </header>
 
-    <div id="about">
+            <div class="pc_frame_wrapper center_x_y">
+                <img class="pc" src="./img/jadwal_natayj_and_etlanama_generator/on_mac.png" alt="">
+            </div>
+
+        </section>
+
+        <!-- <section class="product_item" id="desktop">
+        </section> -->
+
+    </section>
+
+    <section id="about">
 
         <div id="atssar" class="me shadow shadow">
             <img src="img/atssar.jpg" alt="atssar photo" class="shadow profile_img">
@@ -118,7 +126,7 @@
             </footer>
         </div>
 
-    </div>
+    </section>
     <!-- <div id="contact"></div> -->
 
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
