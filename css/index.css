@@ -153,31 +153,23 @@ img.app_logo{
 #desktop{
     display: flex;
     align-items: flex-end;
-}
-
-
-#desktop .pc_frame_wrapper{
-    height: 100%;
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
     justify-content: space-around;
+    padding-top: 120px;
+    flex-wrap: wrap-reverse;
 }
 
-.pc_frame_wrapper img.pc{
-    width: 60%;
+#desktop img.pc{
+    width: 40%;
     flex-grow: 1;
-    margin: 30px;
+    margin: 10px;
     margin-top: 0;
     display: none;
 }
-.pc_frame_wrapper img.pc.visible{
+#desktop img.pc.visible{
     display: inline-block;
 }
 
-.pc_frame_wrapper .desc_card{
+#desktop .desc_card{
     box-sizing: border-box;
     min-height: 450px;
     width: 450px;
