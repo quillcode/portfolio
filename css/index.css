@@ -166,9 +166,20 @@ img.app_logo{
     justify-content: space-around;
 }
 
+.pc_frame_wrapper img.pc{
+    width: 60%;
+    flex-grow: 1;
+    margin: 30px;
+    margin-top: 0;
+    display: none;
+}
+.pc_frame_wrapper img.pc.visible{
+    display: inline-block;
+}
+
 .pc_frame_wrapper .desc_card{
     box-sizing: border-box;
-    min-height: 500px;
+    min-height: 450px;
     width: 450px;
     margin: 30px;
     margin-top: 0;
@@ -181,10 +192,11 @@ img.app_logo{
     color: #FFFFFF;
 }
 
-.desc_card .desc{
+.desc{
     line-height: 20px;
     font-size: 14px;
     font-weight: 300;
+    display: none;
 }
 
 .desc_card .btn_wrapper{
@@ -223,13 +235,6 @@ img.app_logo{
 .desc_card .btn:nth-child(2){
     background: #FFFFFF;
     border-radius: 0 8px 8px 0;
-}
-
-.pc_frame_wrapper img.pc{
-    width: 60%;
-    flex-grow: 1;
-    margin: 30px;
-    margin-top: 0;
 }
 
 /* end desktop */
@@ -369,6 +374,10 @@ img.app_logo{
 
 .shadow {
     box-shadow: 0px 10px 40px -10px rgba(0,64,128,0.2);
+}
+
+.visible{
+    display: block;
 }
 
 .rotate{
