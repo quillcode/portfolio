@@ -3,11 +3,11 @@ let btn_schedual = document.querySelector('#btn_schedual');
 let pcs = document.querySelectorAll('.pc');
 let descs = document.querySelectorAll('.desc');
 btn_jadwal.addEventListener('click', (event) => {
-    displayDescription(btn_jadwal, btn_schedual, desc_jadwal, desc_schedual);
+    displayDescription(btn_jadwal, btn_schedual);
 });
 
 btn_schedual.addEventListener('click', (event)=>{
-    displayDescription(btn_schedual, btn_jadwal, desc_schedual, desc_jadwal);
+    displayDescription(btn_schedual, btn_jadwal);
 });
 
 function displayDescription(target, old_target, desc, old_desc){
@@ -21,7 +21,5 @@ function displayDescription(target, old_target, desc, old_desc){
     });
     pcs.forEach((pc)=>{
         pc.classList.toggle('visible');
-    });
-
-    
+    });    
 }
