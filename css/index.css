@@ -151,29 +151,85 @@ img.app_logo{
 /* desktop */
 
 #desktop{
-    background-color: #2a6171;
     display: flex;
-    flex-direction: column;
+    align-items: flex-end;
 }
 
-#desktop header{
-    height: 30px;
-}
 
 #desktop .pc_frame_wrapper{
-    width: 70%;
-    height: auto;
-    margin-right: auto;
-    margin-left: auto;
-    flex-grow: 1;
+    height: 100%;
 
-    /* display: flex;
-    align-items: flex-end;
-    justify-content: center; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.pc_frame_wrapper .desc_card{
+    box-sizing: border-box;
+    min-height: 500px;
+    width: 450px;
+    margin: 30px;
+    margin-top: 0;
+    padding:30px;
+    background-image: linear-gradient(-135deg, #B620E0 0%, #6236FF 100%);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+
+.desc_card .desc{
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.desc_card .btn_wrapper{
+    height: 40px;
+}
+.desc_card .btn{
+    cursor: pointer;
+    user-select: none;
+    border: 0px;
+    outline: none;
+    margin: 0px;
+    height: 100%;
+    width: 100px;
+    color: #2b2b2c;
+    line-break: strict;
+    text-overflow: ellipsis;
+    background: #FFFFFF;
+    font-family: cursive;
+    white-space: nowrap;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.50);
+    border-radius: 8px 0 0 8px;
+}
+
+.desc_card .btn:hover{
+    opacity: 0.9;
+}
+
+.desc_card .btn.select{
+    box-shadow: inset 0 1px 5px 0 rgba(0,0,0,0.50);
+}
+
+.desc_card .btn:nth-child(1){
+    background: #FFFFFF;
+    border-radius: 8px 0 0 8px;
+}
+.desc_card .btn:nth-child(2){
+    background: #FFFFFF;
+    border-radius: 0 8px 8px 0;
 }
 
 .pc_frame_wrapper img.pc{
-    width: 90%;
+    width: 60%;
+    flex-grow: 1;
+    margin: 30px;
+    margin-top: 0;
 }
 
 /* end desktop */
