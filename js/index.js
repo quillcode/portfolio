@@ -1,10 +1,13 @@
 let toggle_btns = document.querySelectorAll('.btn.js_toggle');
+let products_type = {
+    'desktop': document.querySelectorAll('#desktop .js_toggle'),
+    'web': document.querySelectorAll('#web .js_toggle'),
+}
 toggle_btns.forEach(btn =>{
-    let id = btn.getAttribute("data-type"); // either web or desktop
-    let products = document.querySelectorAll('#'+id+ ' .js_toggle');
-    btn.addEventListener('click', e=>{
-        if(btn.classList.contains('selected')) return;
-        products.forEach(p=>{
+    btn.addEventListener('click', event=>{
+        if(event.target.classList.contains('selected')) return;
+        let type = event.target.getAttribute("data-type"); // either web or desktop
+        products_type[type].forEach(p=>{
             p.classList.toggle('selected');
         });
     });
