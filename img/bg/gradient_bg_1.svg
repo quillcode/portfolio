@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="350px" height="201px" viewBox="0 0 350 201" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 228.256722 0 350 0 350 199.97423 0 199.97423 0 142.859497 0 127.632535"></polygon>
+        <linearGradient x1="12.6152778%" y1="39.1721442%" x2="100%" y2="64.3961667%" id="linearGradient-3">
+            <stop stop-color="#98F6FF" offset="0%"></stop>
+            <stop stop-color="#4C72FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="8.20693366%" y1="51.2761457%" x2="29.9693197%" y2="52.2985557%" id="linearGradient-4">
+            <stop stop-color="#749DFF" offset="0%"></stop>
+            <stop stop-color="#6A74FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="6.45667632%" y1="53.6805828%" x2="47.0349382%" y2="51.4643433%" id="linearGradient-5">
+            <stop stop-color="#7491FF" offset="0%"></stop>
+            <stop stop-color="#846AFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="6.45667632%" y1="53.8559548%" x2="29.9693197%" y2="54.9690291%" id="linearGradient-6">
+            <stop stop-color="#74C1FF" offset="0%"></stop>
+            <stop stop-color="#6AB0FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="38.6148762%" x2="-28.6805591%" y2="120.488191%" id="linearGradient-7">
+            <stop stop-color="#74BFFF" offset="0%"></stop>
+            <stop stop-color="#83FF98" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(0.000000, 0.139571)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="path-2"></g>
+            <rect id="path-2" fill="url(#linearGradient-3)" fill-rule="nonzero" mask="url(#mask-2)" x="0" y="0" width="350" height="199.97423"></rect>
+            <path d="M120.04391,199.97423 C103.319196,148.409669 130.419652,141.9103 215.182272,129.732276 C262.636515,122.914424 307.575758,108.987758 350,87.9522759 C349.939331,162.633579 349.908996,199.97423 349.908996,199.97423 C349.908996,199.97423 273.287301,199.97423 120.04391,199.97423 Z" id="Path-2-Copy" fill="url(#linearGradient-4)" fill-rule="nonzero" mask="url(#mask-2)"></path>
+            <path d="M226.969697,0.0653574861 C226.969697,28.2803285 196.484899,49.5780174 137.083012,60.3249425 C52.7418192,75.5838599 11.9718595,106.344717 1.42108547e-14,155.650045 L8.18994283e-13,0.0627264869 C151.313131,-0.0217768204 226.969697,-0.0208998207 226.969697,0.0653574861 Z" id="Path-2-Copy-2" fill="url(#linearGradient-5)" fill-rule="nonzero" mask="url(#mask-2)"></path>
+            <path d="M286.363636,4.26325641e-14 C268.768544,29.1244596 243.72963,50.0907786 211.246893,62.8989569 C125.088176,96.8719615 86.4742689,142.053784 95.4051678,198.444423 C95.8569783,201.297202 64.0552557,201.76626 0,199.851597 L1.20358414e-13,0.126414003 L286.363636,4.26325641e-14 Z" id="Path-2-Copy-6" fill="url(#linearGradient-6)" fill-rule="nonzero" opacity="0.6" mask="url(#mask-2)"></path>
+            <path d="M206.435783,199.97423 C186.153568,152.659816 350,101.300735 350,134.020578 C350,148.281625 350,170.266176 350,199.97423 L206.435783,199.97423 Z" id="Path-2" fill="url(#linearGradient-7)" fill-rule="nonzero" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>

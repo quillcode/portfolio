@@ -1,25 +1,11 @@
-let btn_jadwal = document.querySelector('#btn_jadwal');
-let btn_schedual = document.querySelector('#btn_schedual');
-let pcs = document.querySelectorAll('.pc');
-let descs = document.querySelectorAll('.desc');
-btn_jadwal.addEventListener('click', (event) => {
-    displayDescription(btn_jadwal, btn_schedual);
-});
-
-btn_schedual.addEventListener('click', (event) => {
-    displayDescription(btn_schedual, btn_jadwal);
-});
-
-function displayDescription(target, old_target, desc, old_desc) {
-    if (!target.classList.contains('select')) {
-        target.classList.add('select');
-        old_target.classList.remove('select');
-
-        descs.forEach((desc) => {
-            desc.classList.toggle('visible');
+let toggle_btns = document.querySelectorAll('.btn.js_toggle');
+toggle_btns.forEach(btn =>{
+    let id = btn.getAttribute("data-type"); // either web or desktop
+    let products = document.querySelectorAll('#'+id+ ' .js_toggle');
+    btn.addEventListener('click', e=>{
+        if(btn.classList.contains('selected')) return;
+        products.forEach(p=>{
+            p.classList.toggle('selected');
         });
-        pcs.forEach((pc) => {
-            pc.classList.toggle('visible');
-        });
-    }
-}
+    });
+});
