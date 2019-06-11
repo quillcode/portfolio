@@ -97,4 +97,4 @@ let particles_json = {
     "retina_detect": true
 }
 
-particlesJS("particles-js", particles_json);
+// particlesJS("particles-js", particles_json);

@@ -183,14 +183,23 @@ img.screen.selected{
     display: flex;
     flex-direction: column;
     color: #FFFFFF;
+    position: relative;
 }
 
 .desc{
+    height: 100%;
     line-height: 22px;
     font-size: 18px;
     font-family:  sans-serif;
     font-weight: 300;
     display: none;
+}
+
+.desc footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
 }
 
 .desc_card .btn_wrapper{
