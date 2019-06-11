@@ -199,7 +199,14 @@ img.screen.selected{
     position: absolute;
     left: 0;
     bottom: 0;
-    padding: 20px;
+    padding: 20px 0px;
+    margin-right: 50%;
+    margin-left: calc(50% - 20px);
+}
+
+.desc footer .icon{
+    height: 40px;
+    width: 40px;   
 }
 
 .desc_card .btn_wrapper{
