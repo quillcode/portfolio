@@ -1,3 +1,2 @@
 # portfolio
-Zahid &amp; Atssar Portfolio
-[Visit Portfolio](quillcode.github.io/portfolio)
+[Visit Zahid &amp; Atssar Portfolio](https://quillcode.github.io/portfolio/)
